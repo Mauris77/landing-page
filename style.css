@@ -4,6 +4,7 @@ body {
 }
 .header {
     background-color: #1F2937;
+    padding: 10px 50px;
 }
 .hero-maintext {
     font-size: 48px;
@@ -23,5 +24,41 @@ body {
     background-color: #3882f6;
     color: #F9FAF8;
     height: fit-content;
-    width: fit-content;
+    width: 100px;
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+.imgplaceholder {
+    height: 300px;
+    width: 600px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color:#F9FAF8;
+    
+}
+.header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 50px;
+    margin-bottom: 100px;
 }

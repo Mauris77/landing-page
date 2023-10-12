@@ -62,3 +62,28 @@ ul {
     margin: 50px;
     margin-bottom: 100px;
 }
+.infoheader {
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    text-align: center;
+}
+.box {
+    height: 150px;
+    width: 150px;
+    border: 5px solid;
+    border-color: #3882f6;
+    border-radius: 25px;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}

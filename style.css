@@ -87,3 +87,21 @@ ul {
     align-items: center;
     text-align: center;
 }
+.quotebackground {
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+.quotetext {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quoteauthor {
+    text-align: end;
+}
